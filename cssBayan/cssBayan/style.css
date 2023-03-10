@@ -123,3 +123,21 @@ img {
   scale: 70%;
   transition: all 0.3s ease;
 }
+
+@media (width > 1000px) {
+
+  .container:hover svg,
+  .container:hover svg path {
+    stroke: #2E8B57;
+    opacity: 100;
+  }
+
+  .container:hover .meme_name {
+    color: #2E8B57;
+  }
+
+  .meme_input:hover~label svg,
+  .meme:hover label svg {
+    transform: rotate(90deg);
+  }
+}
