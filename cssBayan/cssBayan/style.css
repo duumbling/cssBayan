@@ -156,7 +156,7 @@ img {
   }
 }
 
-@media (max-width: 821px) {
+@media (max-width: 850px) {
   .container {
     max-width: 39em;
     margin: 1.875em auto;
