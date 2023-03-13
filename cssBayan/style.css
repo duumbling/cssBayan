@@ -67,7 +67,7 @@
 
  .meme_input:checked~label svg {
    transform: rotate(90deg);
-   opacity: 100;
+   /* opacity: 100; */
  }
 
  .meme:active label .meme_name,
